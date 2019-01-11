@@ -7,9 +7,6 @@
     "loopback"
   ],
   "main": "index.js",
-  "engines": {
-    "node": "0.10.x"
-  },
   "scripts": {
     "build:apidocs": "lb-apidocs",
     "build": "lb-tsc es2017 --outDir dist",
@@ -52,12 +49,11 @@
     "@loopback/repository": "^1.1.1",
     "@loopback/rest": "^1.5.1",
     "@loopback/rest-explorer": "^1.1.4",
-    "@loopback/service-proxy": "^1.0.5"
-  },
-  "devDependencies": {
+    "@loopback/service-proxy": "^1.0.5",
     "@loopback/build": "^1.1.0",
     "@loopback/testlab": "^1.0.3",
     "@loopback/tslint-config": "^1.0.0",
     "@types/node": "^10.11.2"
-  }
+  },
+  "devDependencies": {}
 }

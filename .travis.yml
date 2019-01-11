@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+- node
+- lts/*
+deploy:
+  provider: heroku
+  api_key:
+    secure: QTUNoLKIdy0GEdtAQ1rh+oJ9nA1D1kRLgrpFrSHvKS4rWRogr1xas0D45hm4FK152kLds/kqiUS/MVv5gft1uj0RgCw60BjDIqqq5xjuaHrNLPxKkuJS+FO+K1u2LermOka64vGESfegoMUXHIo6Zv3swQ+CcW8+UuQzIjZQhwYcM6V3HRqYMFCgR6+LBMg1cSUWBcuS3cqEIOwQzHus/RSANUMVIeq+XfznQTcBNGbsWdH13qCzqEJG0sRvmA2aVPVGoD1R5zAYfmEwKn2EYYz/ziaIJc6lgbBMP8mi/xXMeUUbdz+HhLd21B5Iz8oz3NiWqeIri9ummbAu//YRZC5nkShGIoD2SCqG16sZCwNCvYCtWbqNq2IEhIehNvgrv6jTN9luIErjHMRtYXgSfbSYpZ5Tz9KLbeOXBFXRBetPJK++cof3acquxhrtrtDOR2KLGp1bONbf0PyOLHCTBMP8tFb6Pv+BPHwQmK/EeW1aOTB/Y0PTRZHG/QQb/0bDep9xpLwZdINrXywQzMRo5umvmpd9BbScXsFEi0PNwUIGMrA+kHX+YIjuwwC8It+M6AckhCawBhN3UtvEBizDzwdPxlWVoEB3eTUzGWTbWs8Bvx0TasmUMcFAE2M5BTyxYjSCnG0wzjJXf80T8KGK5AU2GiOG3/bTGeFo5kLOxwo=
+  app: solgen-backend
